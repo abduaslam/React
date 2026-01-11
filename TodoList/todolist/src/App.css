@@ -1,0 +1,37 @@
+body.light {
+  background: #f5f5f5;
+  color: #000;
+}
+
+body.dark {
+  background: #121212;
+  color: #fff;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 90%;
+  }
+}
